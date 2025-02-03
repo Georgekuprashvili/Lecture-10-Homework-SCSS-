@@ -1,0 +1,15 @@
+.image_cont {
+  position: relative;
+  div {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}

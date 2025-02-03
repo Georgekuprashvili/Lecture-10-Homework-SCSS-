@@ -1,0 +1,77 @@
+$primary_color: #fff;
+
+.input_box {
+  display: flex;
+  padding: 12px 189px 13px 14px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #ebeff2;
+  width: 275px;
+  height: 49px;
+
+  input {
+    color: #888;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    background-color: transparent;
+  }
+}
+.add_button {
+  display: flex;
+  width: 88px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #20eeb0;
+  border: 0;
+}
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  width: 30px;
+  height: 30px;
+}
+.delete {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox__container {
+  display: flex;
+  align-items: center;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.task-text {
+  color: #0d0d0d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.date {
+  color: #888;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
