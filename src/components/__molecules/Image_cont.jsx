@@ -1,6 +1,6 @@
 import "./Header.scss";
 import photo1 from "../../assets/Rectangle 2 (1).svg";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Image_cont() {
   const [dateTime, setDateTime] = useState("");

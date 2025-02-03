@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Header.scss";
 import Input from "../__atoms/Input";
 import Button from "../__atoms/Button";

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Section.scss";
 import photo3 from "../../assets/akar-icons_circle.svg";
 

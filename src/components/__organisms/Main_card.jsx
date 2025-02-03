@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./Main_Card.scss";
-import Image_cont from "../__molecules/Image_cont";
-import Input_cont from "../__molecules/Input_cont";
-import List from "../__atoms/List";
+import Image_cont from ".././__molecules/Image_cont";
+import Input_cont from ".././__molecules/Input_cont";
+import List from ".././__atoms/List";
 
 function Main_Card() {
   const [tasks, setTasks] = useState([]);
