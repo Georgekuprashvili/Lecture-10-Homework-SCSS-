@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Main_Card.scss";
+import "./Main_card.scss";
 import Image_cont from ".././__molecules/Image_cont";
 import Input_cont from ".././__molecules/Input_cont";
 import List from ".././__atoms/List";
