@@ -17,7 +17,7 @@ function List({ tasks, removeTask }) {
           <div className="checkbox__container">
             <input className="checkbox" type="checkbox" />
             <button className="delete" onClick={() => handleRemove(task)}>
-              <img src={photo3} alt="Delete Icon" />
+              <img src={photo3}  />
             </button>
           </div>
         </li>
