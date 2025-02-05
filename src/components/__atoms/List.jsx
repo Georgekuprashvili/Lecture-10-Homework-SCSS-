@@ -2,7 +2,7 @@ import "./Section.scss";
 import photo3 from "../../assets/akar-icons_trash-can.svg";
 
 function List({ tasks, removeTask }) {
-  function handleRemove(task) {
+  function Remove(task) {
     removeTask(task);
   }
 
@@ -16,8 +16,8 @@ function List({ tasks, removeTask }) {
           </div>
           <div className="checkbox__container">
             <input className="checkbox" type="checkbox" />
-            <button className="delete" onClick={() => handleRemove(task)}>
-              <img src={photo3}  />
+            <button className="delete" onClick={() => Remove(task)}>
+              <img src={photo3} />
             </button>
           </div>
         </li>

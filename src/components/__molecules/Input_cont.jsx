@@ -6,7 +6,7 @@ import Button from "../__atoms/Button";
 function Input_cont({ addTaskToList }) {
   const [task, setTask] = useState("");
 
-  function handleSubmit(event) {
+  function Submit(event) {
     event.preventDefault();
     if (task.trim()) {
       addTaskToList(task);
@@ -14,13 +14,13 @@ function Input_cont({ addTaskToList }) {
     }
   }
 
-  function handleChange(event) {
+  function Change(event) {
     setTask(event.target.value);
   }
 
   return (
-    <form className="form" onSubmit={handleSubmit}>
-      <Input value={task} onChange={handleChange} />
+    <form className="form" onSubmit={Submit}>
+      <Input value={task} onChange={Change} />
       <Button />
     </form>
   );
